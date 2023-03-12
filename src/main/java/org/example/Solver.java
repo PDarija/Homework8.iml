@@ -1,9 +1,7 @@
 package org.example;
 
 public class Solver {
-    int a;
-    int b;
-    int c;
+
     double d;
 
     public double resultOfDiscriminant(int a, int b, int c) {
