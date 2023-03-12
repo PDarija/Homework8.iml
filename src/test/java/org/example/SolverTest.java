@@ -21,21 +21,21 @@ public class SolverTest {
     @Test
     public void checkCalculatorOfDiscriminantPositive() {
 
-        double result = solver.resultOfDiscriminant(5, 6, 1);
+        int result = solver.resultOfDiscriminant(5, 6, 1);
         assertEquals(2.0, result, 0.001);
 
     }
     @Test
     public void checkCalculatorOfDiscriminantNegative() {
 
-        double result = solver.resultOfDiscriminant(5, 6, 7);
+        int result = solver.resultOfDiscriminant(5, 6, 7);
         assertEquals(0, result, 0.001);
 
     }
     @Test
     public void checkCalculatorOfDiscriminantZero() {
 
-        double result = solver.resultOfDiscriminant(9, 6, 1);
+        int result = solver.resultOfDiscriminant(9, 6, 1);
         assertEquals(1, result, 0.001);
 
     }
